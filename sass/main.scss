@@ -1,0 +1,6 @@
+@use './utils/vars' as *;
+@import './components/navigation';
+// USE - NOWSZY I BARDZIEJ ZALECANY SPOSOB, TO SAMO CO IMPORT
+body {
+  color: $defaultFontColor;
+}
