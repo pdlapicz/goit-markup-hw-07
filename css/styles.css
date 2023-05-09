@@ -439,7 +439,7 @@ body {
   gap: 30px;
 }
 
-.our-strengths-logo {
+.our-strengths__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -449,7 +449,7 @@ body {
   border-radius: 4px;
 }
 
-.our-strengths-title {
+.our-strengths__title {
   margin-top: 30px;
   font-weight: 700;
   line-height: 1.1;
@@ -459,7 +459,7 @@ body {
   padding-bottom: 10px;
 }
 
-.our-strengths-description {
+.our-strengths__description {
   font-size: 14px;
   line-height: 1.7;
   color: var(--font-color-paragraph);
@@ -577,8 +577,8 @@ body {
   cursor: pointer;
 }
 
-.team-social-media-item:hover,
-.team-social-media-item:focus {
+.team-social-media__item:hover,
+.team-social-media__item:focus {
   fill: var(--font-color-dark-background);
   /* kolor ikony */
   background-color: var(--active-color);
