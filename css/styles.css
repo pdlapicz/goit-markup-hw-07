@@ -168,7 +168,7 @@ body {
   flex-wrap: wrap;
 }
 
-.contact-footer {
+.footer-contact {
   /* ulozenie czesci z danymi kontaktowymi */
   padding-top: 21px;
   display: flex;
@@ -179,20 +179,20 @@ body {
   font-size: 14px;
 }
 
-.contact-footer__address {
+.footer-contact__address {
   text-decoration: none;
   font-style: normal;
   color: var(--font-color-footer);
 }
 
-.contact-footer__link {
+.footer-contact__link {
   color: var(--font-color-footer-with-alpha);
   text-decoration: none;
   font-style: normal;
 }
 
-.contact-footer__link:hover,
-.contact-footer__link:focus {
+.footer-contact__link:hover,
+.footer-contact__link:focus {
   color: var(--active-color);
   transition-property: color;
   transition-duration: 250ms;
