@@ -1,6 +1,7 @@
 @use './utils/vars' as *;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 @import './components/navigation';
 // USE - NOWSZY I BARDZIEJ ZALECANY SPOSOB, TO SAMO CO IMPORT
-body {
-  color: $defaultFontColor;
-}
+@import './components/defaults';
+@import './components/header';
+@import './components/logo'; // tu same importy

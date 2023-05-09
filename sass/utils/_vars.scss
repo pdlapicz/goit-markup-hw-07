@@ -2,10 +2,11 @@
 $defaultFontColor: #212121;
 $defaultBgColor: #fff;
 // czcionki
-$fontFamily: 'Roboto, sans-serif';
-$fontFamilyLogo: 'Raleway, sans-serif';
+$fontFamily: 'Roboto', sans-serif;
+$fontFamilyLogo: 'Raleway', sans-serif;
 // kolory
 $fontColors: (
+  'default': #212121,
   'active': #2196f3,
   'lightBg': #000,
   'darkBg': #fff,
@@ -23,3 +24,13 @@ $bgColors: (
   'team': #f5f4fa,
   // tez dla logo i btn unactive,
 );
+
+// funkcje do zastosowania zamiast map-get($colors, 'background');
+
+@function getBgColor($key) {
+  @return map-get($bgColors, $key);
+}
+
+@function getColor($key) {
+  @return map-get($fontColors, $key);
+}

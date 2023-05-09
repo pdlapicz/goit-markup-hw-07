@@ -1,0 +1,18 @@
+.logo {
+  font-family: $fontFamilyLogo;
+  // nie dziala zmienna nwm czemu,..
+  font-size: 26px;
+  text-decoration: none;
+  /* usuneicie podkreslenia */
+  font-weight: 700;
+  color: getColor('active');
+  line-height: 30px;
+
+  &--black {
+    color: black;
+  }
+
+  &--white {
+    color: white;
+  }
+}
