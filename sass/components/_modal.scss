@@ -17,21 +17,7 @@
   transition-duration: 600ms;
   transition-property: transform opacity background-color;
 
-  .backdrop {
-    /* backdrop - przyciemnianie tyłu strony po otwarciu okna modalnego*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* wysrodkowanie */
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-
-  .btn-close {
+  &__btn-close {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -73,4 +59,18 @@
     transition-property: transform opacity background-color;
     transition-duration: 600ms;
   }
+}
+
+.backdrop {
+  /* backdrop - przyciemnianie tyłu strony po otwarciu okna modalnego*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* wysrodkowanie */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
