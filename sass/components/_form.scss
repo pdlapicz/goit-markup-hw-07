@@ -2,7 +2,7 @@
   padding: 40px;
 
   /* nagłówek */
-  .form-order-service h2 {
+  &__header {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -35,8 +35,8 @@
       /* +svg musial zostac dodany, aby zadzialala zmiana koloru dla ikony */
       &:hover,
       &:focus,
-      &:hover + svg,
-      &:focus + svg {
+      &:hover + .label-order__icon,
+      &:focus + .label-order__icon {
         border-color: getColor('active');
         fill: getColor('active');
         transition-property: border-color, fill;
