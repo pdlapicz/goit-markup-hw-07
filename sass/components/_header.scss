@@ -32,22 +32,22 @@
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-  }
 
-  &--is-active {
-    position: relative;
-    display: block;
-    color: getColor('active');
+    &--is-active {
+      position: relative;
+      display: block;
+      color: getColor('active');
 
-    &::after {
-      content: '';
-      position: absolute;
-      height: 4px;
-      top: 45px;
-      left: 0;
-      right: 0;
-      background-color: getBgColor('active');
-      border-radius: 2px;
+      &::after {
+        content: '';
+        position: absolute;
+        height: 4px;
+        top: 45px;
+        left: 0;
+        right: 0;
+        background-color: getBgColor('active');
+        border-radius: 2px;
+      }
     }
   }
 }
